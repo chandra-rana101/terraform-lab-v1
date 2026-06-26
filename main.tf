@@ -4,6 +4,4 @@ resource "aws_vpc" "my-terraform-lab-VPC" {
   instance_tenancy = "default"
 
   tags = {
-    Name = "terraform-lab"
-  }
-}
+    Name = "my-terraform-lab"
