@@ -5,3 +5,5 @@ resource "aws_vpc" "my-terraform-lab-VPC" {
 
   tags = {
     Name = "my-terraform-lab"
+  }
+}
